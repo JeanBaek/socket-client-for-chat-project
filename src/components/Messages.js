@@ -1,8 +1,8 @@
 import React from "react";
 
-export function Events({events}) {
+export function Messages({events}) {
     return (
-        <ul>
+        <ul className="row-span-5 flex-grow text-gray-900">
             {
                 events.map((event, i) => (
                     <li key={i}>{event}</li>
